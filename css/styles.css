@@ -48,12 +48,12 @@ body {font-family: Roboto;
 
 
 .container {
- width: 1158;
+ width: 1158px;
   
    padding-left:  15px;
     padding-right:  15px;
-  margin-left: 156px;
-  margin-right: 156px;
+  margin-left: auto;
+  margin-right: auto;
     outline: 1px solid red;
     
 }
@@ -68,7 +68,7 @@ body {font-family: Roboto;
     color: #4D5AE5;
 }
 .logo .link {
-    margin-left: 156px;
+    
 margin-right: 76px;
 font-family: 'Raleway';
 font-weight: 800;
@@ -99,12 +99,12 @@ color: var(--primary-text-color);
 
 .menu-list {
     display: flex;
-    margin-left: 76px;
+    
 }
 .address {
     display: flex;
     align-items: center;
-    margin-right: 156px;
+    
     margin-left: auto;
     
 }
@@ -225,13 +225,14 @@ flex-basis: calc((100%-72)/4);
   
 }
 
-.list :not(:last-child) {
-   margin-right: 24px;
+.list:not(:last-child) {
+gap: 24px;
 }
 
 
 .hero {
-   
+   padding-top: 188px;
+   padding-bottom: 188px;
    
     text-align: center;
 }
@@ -254,8 +255,13 @@ line-height: 1.07;
     color: #FFFFFF
 }
 
+.people {
+    padding-top: 120px;
+    padding-bottom: 72px;
+    margin-right: 24px;
+}
 .people-list {
-     margin-right: 24px;   
+     gap: 24px;  
     justify-content: center;
   flex-direction: row;
    
@@ -280,32 +286,24 @@ letter-spacing: 0.02em;
 
 color: var(--primary-text-color);
 }
-.team {
-    padding-top: 120px;
-    padding-right: auto;
-    padding-bottom: 72px;
-    padding-right: auto;
-}
 
-.card{
-    
-flex-basis: calc((100%-144)/9)
-    box-sizing: border-box;
-    
-    padding: 0;
+
+.card  {
+
+box-sizing: border-box;
+        padding: 0;
     margin: 0;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
-   
 }
+
 .card .pic {
-    
-    
-    margin-right: 24px;
+     flex-basis: calc((100%-144px) / 9);  
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 48px;
 
  }
