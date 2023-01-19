@@ -5,7 +5,7 @@
 
 body {font-family: Roboto; 
     text-decoration: none;
-    background: #E5E5E5
+   
      }
      :root {
         --line-height: 1.5;
@@ -55,11 +55,6 @@ body {font-family: Roboto;
   margin-left: auto;
   margin-right: auto;
     outline: 1px solid red;
-    
-}
-.header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     
 }
 
@@ -135,6 +130,7 @@ text-decoration: none;
   padding-top: 96px;
   padding-bottom: 72px;
   margin-right: 24px;
+  margin-bottom: 72px;
 
 font-size: 16px;
 line-height: var(--line-height);
@@ -152,11 +148,16 @@ color: #4D5AE5;
     font-size: 16px;
     line-height: var(--line-height);
     border-radius: 4px;
+
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
     
    
     display: flex;
     align-items: center;
-    text-align: center;
+   text-align: center;
     color: #4D5AE5;    
     background: #F4F4FD
     
@@ -222,8 +223,9 @@ color: #434455;
  display: flex;
 align-items: center;
 flex-basis: calc((100%-72)/4);
-  
+  gap: 24px;
 }
+
 
 .list:not(:last-child) {
 gap: 24px;
@@ -252,13 +254,13 @@ font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 
-    color: #FFFFFF
+    color: #434455;
 }
 
 .people {
     padding-top: 120px;
-    padding-bottom: 72px;
-    margin-right: 24px;
+    padding-bottom: 120px;
+    gap: 24px;
 }
 .people-list {
      gap: 24px;  
@@ -310,10 +312,14 @@ box-sizing: border-box;
 
  .card-content {
     padding-top: 32px;
-    padding-right: 54px;
-    padding-bottom: 64px;
+    padding-right: 16px;
+    padding-bottom: 32px;
     padding-left: 16px;
     border: 1px;
+ }
+ .portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
  }
 
 
@@ -340,7 +346,6 @@ color: #E7E9FC;
     padding-top: 100px;
     padding-right: auto;
     padding-bottom: 100px;
-    padding-left: 156px;
+    
 }
-
 
