@@ -42,10 +42,10 @@ body {font-family: Roboto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
-    
-}
+   gap: 76px;
 
+   
+  }
 
 .container {
  width: 1158px;
@@ -87,19 +87,17 @@ line-height: var(--line-height);
 text-decoration: none;
 color: var(--primary-text-color);
 }
-.menu-list li:not(:last-child) {
-    margin-right: 40px;
-}
+
 
 
 .menu-list {
     display: flex;
-    
+    margin-right: 40px;
 }
 .address {
     display: flex;
     align-items: center;
-    
+    margin-right: 40px;
     margin-left: auto;
     
 }
@@ -118,7 +116,9 @@ letter-spacing: 0.02em;
 color: #434455;
 text-decoration: none;
 }
-
+.header {
+    border-bottom: 1px solid #E7E9FC; 
+}
 
 
 /* Buttoms */
@@ -127,8 +127,7 @@ text-decoration: none;
 .btm-list {
   justify-content: center;
   font-weight: 500;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  
   margin-right: 24px;
   margin-bottom: 72px;
 
@@ -188,7 +187,7 @@ letter-spacing: 0.04em;
 }
 
 .order-button {
-    padding-bottom: 188px;
+    
     padding-left: auto;
     padding-right: auto;
 }
@@ -246,10 +245,7 @@ gap: 24px;
 .main-title {
    margin-top: 0;
    margin-bottom: 48px;
-   padding-top: 188px;
-
-
-
+  
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -293,29 +289,30 @@ color: var(--primary-text-color);
 .card  {
 
 box-sizing: border-box;
-        padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
+      
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .card .pic {
-     flex-basis: calc((100%-144px) / 9);  
+    
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 48px;
-
+    
  }
 
  .card-content {
+   
     padding-top: 32px;
     padding-right: 16px;
     padding-bottom: 32px;
     padding-left: 16px;
-    border: 1px;
+   
+    
+    border: 1px solid #E7E9FC
  }
  .portfolio {
     padding-top: 96px;
@@ -325,8 +322,6 @@ box-sizing: border-box;
 
 /* Footer */
 .logofooter {
-margin-bottom: 16px;
-
 font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
@@ -335,12 +330,15 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
 color: #F4F4FD;
+
 }
 .mission {
+    margin-top: 16px;
 font-size: 16px;
 line-height: var(--line-height);
 letter-spacing: 0.02em;
 color: #E7E9FC;
+
 }
 .under {
     padding-top: 100px;
