@@ -92,20 +92,16 @@ color: var(--primary-text-color);
 
 .menu-list {
     display: flex;
-    margin-right: 40px;
+    
 }
 .address {
-    display: flex;
-    align-items: center;
-    margin-right: 40px;
+        
+    margin-right:auto;
     margin-left: auto;
     
 }
 
-.address .item + .item{
-    margin-left: 40px;
-    
-}
+
 
 .address .link {
   
@@ -115,6 +111,7 @@ line-height: var(--line-height);
 letter-spacing: 0.02em;
 color: #434455;
 text-decoration: none;
+
 }
 .header {
     border-bottom: 1px solid #E7E9FC; 
@@ -221,8 +218,8 @@ color: #434455;
 
  display: flex;
 align-items: center;
-flex-basis: calc((100%-72)/4);
-  gap: 24px;
+gap: 40px;
+
 }
 
 
